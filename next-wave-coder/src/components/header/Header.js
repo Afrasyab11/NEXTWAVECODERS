@@ -4,7 +4,7 @@ import Link from "next/link";
 export const Header = () => {
   return (
     <>
-       <div className="flex justify-between py-2 items-center sticky top-0  w-full px-14 ">
+       <div className="flex justify-between py-2 items-center sticky top-0 bg-primary z-50  w-full px-14 ">
         <div className="">
           <Image src={icons?.logo} alt="logo" className=" w-auto" />
         </div>

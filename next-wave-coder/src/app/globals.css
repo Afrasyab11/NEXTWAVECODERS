@@ -20,3 +20,15 @@ body {
   font-family: 'Montserrat';
   font-feature-settings: "kern";
 }
+
+.striped-text {
+  background: repeating-linear-gradient(
+    50deg,
+    #644EDE 0,
+    #644EDE 2px,
+    transparent 2px,
+    transparent 4px
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
