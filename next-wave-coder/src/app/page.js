@@ -7,11 +7,12 @@ import { About } from "@/components/about/About";
 import { Services } from "@/components/services/Services";
 import { ClientLocatoin } from "@/components/WherFromClients/ClientLocation";
 import { Team } from "@/components/team/Team";
+import { AgencyDetails } from "@/components/agencyDetails/Agency";
 export default function page() {
   return (
     <div className="w-full ">
       <Header />
-      <div className="px-14">
+      <div className="px-3 md:px-4 lg:px-14">
         <div>
           <Home />
         </div>
@@ -26,6 +27,9 @@ export default function page() {
         </div>
         <div>
           <Team />
+        </div>
+        <div>
+          <AgencyDetails />
         </div>
       </div>
     </div>

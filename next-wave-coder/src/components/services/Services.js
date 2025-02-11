@@ -42,7 +42,7 @@ const services = [
 export const Services = () => {
   return (
     <>
-      <div className="w-full flex flex-col space-y-12 h-[100vh]">
+      <div className="w-full flex flex-col space-y-12">
         <p className="text-[25px] uppercase  text- border-b-4 border-secondary text-white w-[90px]">
           Services
         </p>
@@ -50,7 +50,7 @@ export const Services = () => {
           {services?.map((item, index) => (
             <div
               key={index}
-              className="flex flex-col justify-end space-y-4 bg-semi-primary border-[1px] h-[250px] border-secondary rounded-lg p-4"
+              className="flex flex-col justify-end space-y-4 bg-semi-primary border-[1px] h-auto md:h-auto lg:h-auto xl:h-[250px] border-secondary rounded-lg p-4"
             >
               <p className="text-xl text-white">{item?.title}</p>
               <p className="text-base text-white text-justify">

@@ -4,7 +4,7 @@ import icons from "@/assets";
 export const ClientLocatoin = () => {
   return (
     <>
-      <div className="w-full flex justify-center flex-col space-y-12 h-[60vh]">
+      <div className="w-full flex justify-center flex-col space-y-12 ">
         <div className="mt-10 text-center flex  flex-col space-y-6">
           <p className="text-white text-xl">
             We Have Our Clients From All Around The Globe

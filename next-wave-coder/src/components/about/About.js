@@ -12,7 +12,7 @@ export const About = () => {
             <Image
               src={icons?.cornerDots}
               alt="dots"
-              className="h-24 w-24 absolute right-[-20px] bottom-0"
+              className="h-24 w-24 absolute right-[-20px] bottom-0 hidden md:block"
             />
             <p className="text-[16px] text-justify text-white max-w-md">
               NEXTWAVE CODERS is a cutting-edge software company specializing in
@@ -23,7 +23,7 @@ export const About = () => {
               effectively.
             </p>
             <div>
-              <Image src={icons?.globel} alt="globel" className="h-auto" />
+              <Image src={icons?.globel} alt="globel" className="h-auto hidden md:block" />
             </div>
           </div>
         </div>
