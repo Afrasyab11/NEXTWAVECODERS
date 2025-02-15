@@ -9,6 +9,8 @@ export default {
     extend: {
       backgroundImage: {
         'custom-gradient': "linear-gradient(90deg, rgba(100, 78, 222, 1) 0%, rgba(23, 78, 88, 0.5) 29.08%, rgba(2, 11, 30, 0.5) 59.38%, rgba(2, 11, 30, 0.5) 89.68%, rgba(2, 11, 30, 0.5) 114.73%)",
+        'right-threebox': "url('/src/assets/images/rightThreebox.svg')"
+
       },
       colors: {
         background: "var(--background)",
